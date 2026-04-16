@@ -23,7 +23,7 @@ const LINKS = [
         <polyline points="8 6 2 12 8 18" />
       </svg>
     ),
-    href: "https://dev-deivis.github.io/portafolio/",
+    href: "https://portafolio-two-xi-55.vercel.app/",
     color: "#c792ea",
   },
   {
