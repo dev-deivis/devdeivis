@@ -3,6 +3,7 @@ import "./App.css";
 import { LINKS } from "./constants/links";
 import TypingText from "./components/TypingText";
 import LinkCard from "./components/LinkCard";
+import profileAvatar from "./profile_avatar.jpg";
 
 export default function App() {
   const [loaded, setLoaded] = useState(false);
@@ -83,14 +84,15 @@ export default function App() {
                 margin: "0 auto",
                 boxShadow: "0 0 32px rgba(100,255,218,0.12)",
               }}>
-                <div style={{
-                  width: "100%", height: "100%",
-                  background: "linear-gradient(135deg, #1a2332, #0e1117)",
-                  display: "flex", alignItems: "center", justifyContent: "center",
-                  fontSize: "32px",
-                }}>
-                  👨‍💻
-                </div>
+                <img
+                  src={profileAvatar}
+                  alt="David Almaraz"
+                  style={{
+                    width: "100%",
+                    height: "100%",
+                    objectFit: "cover",
+                  }}
+                />
               </div>
               {/* Círculo online */}
               <div style={{
