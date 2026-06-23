@@ -3,7 +3,7 @@ import "./App.css";
 import { LINKS } from "./constants/links";
 import TypingText from "./components/TypingText";
 import LinkCard from "./components/LinkCard";
-import profileAvatar from "./profile_avatar.jpg";
+import profileAvatar from "./foto_formal.png";
 
 export default function App() {
   const [loaded, setLoaded] = useState(false);
